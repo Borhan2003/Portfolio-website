@@ -280,9 +280,9 @@ footer {
     #home {
         flex-direction: column;
 
-        height: 600px;
+        height: 560px;
         width: 100vw;
-        padding: 30px 20px;
+        padding: 0px 30px;
         margin-top: 50px;
         margin-right: 50px;
     }
