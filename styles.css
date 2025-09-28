@@ -279,12 +279,16 @@ footer {
 
     #home {
         flex-direction: column;
+
         height: 600px;
-        width:100%;
-        padding: 50px 20px;
+        width: 100vw;
+        padding: 30px 20px;
         margin-top: 50px;
+        margin-right: 50px;
     }
-    
+
+
+
 
     .pic {
         width: 100%;
@@ -364,19 +368,21 @@ button:active {
     background-color: #2B29A7;
 }
 
-@keyframes typing {
-    from {
-        width: 0px;
+@media (min-width : 769) {
+    @keyframes typing {
+        from {
+            width: 0px;
+        }
+
+        to {
+            width: 100%
+        }
     }
 
-    to {
-        width: 100%
+    .intro-text p {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 0;
+        animation: typing 2s steps(30) forwards;
     }
-}
-
-.intro-text p {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 0;
-    animation: typing 2s steps(30) forwards;
 }
