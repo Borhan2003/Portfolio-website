@@ -355,6 +355,11 @@ footer {
         padding: 20px;
         gap: 20px;
     }
+
+    .projects-container button {
+        width: 250px;
+    }
+
 }
 
 button {
