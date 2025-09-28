@@ -279,8 +279,12 @@ footer {
 
     #home {
         flex-direction: column;
-        height: auto;
+        height: 600px;
+        width:100%;
+        padding: 50px 20px;
+        margin-top: 50px;
     }
+    
 
     .pic {
         width: 100%;
