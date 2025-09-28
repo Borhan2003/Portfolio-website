@@ -374,7 +374,7 @@ button:active {
     background-color: #2B29A7;
 }
 
-@media (min-width : 769) {
+@media (min-width : 769px) {
     @keyframes typing {
         from {
             width: 0px;
