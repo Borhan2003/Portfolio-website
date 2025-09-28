@@ -324,13 +324,19 @@ footer {
 
     }
 
+    footer {
+        margin-left: 30px;
+        ;
+
+    }
 
     .projects-container {
         flex-direction: column;
         gap: 20px;
         padding: 10px;
 
-        text-align: center;
+        align-content: center;
+        padding-left: 50px;
 
     }
 
