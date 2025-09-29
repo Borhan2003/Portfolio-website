@@ -194,7 +194,7 @@ nav ul li a {
     justify-content: space-between;
     gap: 50px;
     padding-left: 0px;
-    width: 1100px;
+    width: 100%;
     margin-left: 110px;
     margin-top: 60px;
     background-color: #f8f9fa;
@@ -204,7 +204,7 @@ nav ul li a {
 .contact-form input,
 .contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 12px 0px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 6px;
@@ -214,12 +214,12 @@ nav ul li a {
 
 .contact-form button {
     padding: 12px 20px;
-    border: none;
+  
     background-color: #2B29A7;
     color: white;
     font-size: 16px;
     border-radius: 6px;
-    cursor: pointer;
+    
 }
 
 .contact-form button:hover {
