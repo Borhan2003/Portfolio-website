@@ -300,7 +300,7 @@ footer {
         flex-direction: column-reverse;
         height: auto;
        
-        padding: 20px;
+        /* padding: 20px; */
         margin: 0px;
         width: 100%;
     }
@@ -369,6 +369,7 @@ footer {
         margin-left: 0;
         gap: 20px;
         justify-items: center;
+        width:100%;
 
 
     }
