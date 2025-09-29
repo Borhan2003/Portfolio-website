@@ -99,7 +99,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 90px;
-    ;
+    
 }
 
 .skill_text {
@@ -107,7 +107,7 @@ nav ul li a {
     text-align: center;
 
 
-    margin-left: 200px;
+   
     font-size: 50px;
     font-weight: 600;
     line-height: 30px;
@@ -120,7 +120,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(4, 170px);
     justify-content: center;
-    margin-left: 190px;
+   
     gap: 40px;
 
 }
