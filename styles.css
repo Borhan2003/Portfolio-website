@@ -55,7 +55,7 @@ nav ul li a {
 #home {
     background-color: #D9D9D9;
     height: 450px;
-    width:100vw;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -263,6 +263,7 @@ footer {
     font-size: 14px;
     color: #bbbbbb;
 }
+
 #about,
 #skills,
 .contact-container {
@@ -270,6 +271,7 @@ footer {
     max-width: 100%;
     margin: 0 auto;
 }
+
 
 
 
@@ -297,7 +299,7 @@ footer {
     #home {
         flex-direction: column-reverse;
         height: auto;
-        width: 100vw;
+       
         padding: 20px;
         margin: 0px;
         width: 100%;
@@ -388,7 +390,7 @@ footer {
         padding-left: 0px;
 
         padding-bottom: 20px;
-        
+
 
         align-content: center;
         padding-left: 0px;
@@ -460,6 +462,18 @@ button:active {
         animation: typing 2s steps(30) forwards;
     }
 }
+
+#about,
+#skills,
+.contact-container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+#home {
+    width: 100%;
+}
+
 body {
     overflow-x: hidden;
 }
