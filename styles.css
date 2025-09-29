@@ -251,7 +251,7 @@ footer {
 .footer-item p {
     font-size: 14px;
     color: #cccccc;
-    
+
 }
 
 .footer-bottom {
@@ -291,9 +291,17 @@ footer {
         height: auto;
         width: 100vw;
         padding: 0px 30px;
-        margin-top: 50px;
-        margin-right: 50px;
+        margin: 0px;
+        width: 100%;
     }
+
+    #about,
+    #skills,
+    .contact-container {
+        width: 100%;
+        margin: 0px;
+    }
+
 
     .download-cv {
         height: 100%;
@@ -305,13 +313,12 @@ footer {
         border-radius: 20px;
         font-style: Noto;
         font-weight: 500;
-    
-      
         word-wrap: wrap;
     }
-    .intro-text{
 
-        padding-top:80px;
+    .intro-text {
+
+        padding-top: 80px;
     }
 
 
@@ -320,10 +327,10 @@ footer {
     .pic {
         width: 100%;
         height: 300px;
-        background-color:#f1f1f1;
+        background-color: #f1f1f1;
         border-radius: 50%;
         top: 0px;
-        background-position:center top;
+        background-position: center top;
         background-position-y: -60px;
 
     }
@@ -362,7 +369,7 @@ footer {
         padding: 20px;
         width: 100%;
 
-        
+
 
     }
 
