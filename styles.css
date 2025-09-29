@@ -92,7 +92,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 80px;
-    
+
 }
 
 #skills {
@@ -299,7 +299,7 @@ footer {
     #home {
         flex-direction: column-reverse;
         height: auto;
-       
+
         /* padding: 20px; */
         margin: 0px;
         width: 100%;
@@ -355,7 +355,7 @@ footer {
     #about,
     #skills {
         width: 100%;
-        padding: 50px 20px;
+        padding: 50px 0px;
     }
 
     .skill_text {
@@ -369,7 +369,7 @@ footer {
         margin-left: 0;
         gap: 20px;
         justify-items: center;
-        width:100%;
+        width: 100%;
 
 
     }
@@ -406,13 +406,17 @@ footer {
         height: auto;
     }
 
+    .contact-form input,
+    .contact-form textarea {
+        padding:0px;
 
-
+    }
+    
     .contact-container {
         flex-direction: column;
         width: 100%;
         margin-left: 0;
-        padding: 30px;
+        padding: 0px;
         gap: 30px;
     }
 
