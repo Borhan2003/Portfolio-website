@@ -346,10 +346,12 @@ footer {
     }
 
     .about-text {
-        margin-left: 0px;
+        margin: 0px;
         font-size: 22px;
         text-align: center;
         line-height: 28px;
+        word-wrap: wrap;
+        text-align: center;
     }
 
     #about,
