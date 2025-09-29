@@ -6,28 +6,34 @@ html {
     scroll-behavior: smooth;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
+
 }
 
 nav ul li a {
+
     text-decoration: none;
     font-family: 'Dm Sans';
     color: #666666;
+
 }
 
 .social-icons {
     width: auto;
     height: 30px;
     display: flex;
+
     gap: 20px;
 }
 
@@ -43,6 +49,7 @@ nav ul li a {
     font-weight: 700;
     padding: 0px 20px 0px 20px;
     line-height: 40px;
+
 }
 
 #home {
@@ -59,6 +66,7 @@ nav ul li a {
 .pic {
     width: 800px;
     height: 600px;
+
     background-image: url('profile.png');
     background-size: cover;
     background-position: center -100px;
@@ -69,32 +77,41 @@ nav ul li a {
 .about-text {
     font-family: 'crimson text';
     text-align: start;
+
+
     margin-left: 200px;
     font-size: 30px;
     font-weight: 100;
     line-height: 30px;
+    ;
     vertical-align: middle;
+
 }
 
 #about {
     width: 100%;
     height: auto;
     padding-top: 80px;
+    
 }
 
 #skills {
     width: 100%;
     height: auto;
     padding-top: 90px;
+    ;
 }
 
 .skill_text {
     font-family: 'crimson text';
     text-align: center;
+
+
     margin-left: 200px;
     font-size: 50px;
     font-weight: 600;
     line-height: 30px;
+    ;
     vertical-align: middle;
     color: #2B29A7;
 }
@@ -105,13 +122,18 @@ nav ul li a {
     justify-content: center;
     margin-left: 190px;
     gap: 40px;
+
 }
+
+
 
 .projects-container {
     display: flex;
     gap: 20px;
+
     display: flex;
     justify-content: space-around;
+
     padding: 20px;
     text-align: center;
 }
@@ -124,6 +146,7 @@ nav ul li a {
 
 .projects-container h3 {
     font-family: 'crimson text';
+
     font-size: 30px;
     line-height: 20px;
     color: black;
@@ -138,6 +161,7 @@ nav ul li a {
 .p1,
 .p2,
 .p3 {
+
     height: 450px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -145,6 +169,7 @@ nav ul li a {
     box-shadow: #00000033;
     transition: transform 0.3s ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
 .projects-container button {
@@ -153,12 +178,15 @@ nav ul li a {
     background-color: black;
     color: aliceblue;
     text-align: center;
+
     border-radius: 5px;
     font-style: Noto;
     font-weight: 700;
     padding: 0px 20px 0px 20px;
+
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
 }
 
 .contact-container {
@@ -170,6 +198,7 @@ nav ul li a {
     margin-left: 110px;
     margin-top: 60px;
     background-color: #f8f9fa;
+
 }
 
 .contact-form input,
@@ -202,6 +231,7 @@ footer {
     color: #f1f1f1;
     padding: 30px;
     font-family: 'DM Sans', sans-serif;
+
 }
 
 .footer-content {
@@ -222,6 +252,7 @@ footer {
 .footer-item p {
     font-size: 14px;
     color: #cccccc;
+
 }
 
 .footer-bottom {
@@ -241,7 +272,13 @@ footer {
     margin: 0 auto;
 }
 
+
+
+
 @media (max-width: 768px) {
+
+
+
     nav ul {
         display: none;
     }
@@ -254,12 +291,15 @@ footer {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 0 15px; /* Added: Ensure padding for mobile */
+
     }
+
+
 
     #home {
         flex-direction: column-reverse;
         height: auto;
+       
         padding: 20px;
         margin: 0px;
         width: 100%;
@@ -272,6 +312,7 @@ footer {
         margin: 0px;
     }
 
+
     .download-cv {
         height: 100%;
         width: auto;
@@ -280,30 +321,32 @@ footer {
         text-align: center;
         border: 2px solid #2B29A7;
         border-radius: 20px;
-        font-family: 'Noto', sans-serif; /* Updated: Changed font-style to font-family */
+        font-style: Noto;
         font-weight: 500;
         word-wrap: wrap;
-        padding: 10px 20px; /* Added: Adjusted padding for better fit */
     }
 
     .intro-text {
+
         padding-top: 80px;
     }
 
+
+
+
     .pic {
-        width: 100%; /* Updated: Made responsive to prevent overflow */
-        max-width: 400px; /* Added: Cap width for mobile */
+        width: 100%;
         height: 300px;
         background-color: #f1f1f1;
         border-radius: 50%;
         top: 0px;
         background-position: center top;
         background-position-y: -60px;
+
     }
 
     .about-text {
-        margin-left: 15px; /* Updated: Reduced margin to prevent overflow */
-        margin-right: 15px; /* Added: Symmetric margin */
+        margin-left: 0px;
         font-size: 22px;
         text-align: center;
         line-height: 28px;
@@ -312,54 +355,63 @@ footer {
     #about,
     #skills {
         width: 100%;
-        padding: 50px 15px; /* Updated: Adjusted padding for mobile */
+        padding: 50px 20px;
     }
 
     .skill_text {
         font-size: 30px;
-        margin-left: 15px; /* Updated: Reduced margin to prevent overflow */
-        margin-right: 15px; /* Added: Symmetric margin */
+        margin-left: 0px;
+
     }
 
     .skills-container {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Updated: Responsive grid to prevent overflow */
-        margin-left: 15px; /* Updated: Reduced margin */
-        margin-right: 15px; /* Added: Symmetric margin */
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 0;
         gap: 20px;
         justify-items: center;
+
+
     }
+
 
     footer {
         margin: 0px;
         padding: 20px;
         width: 100%;
+
+
+
     }
 
     .projects-container {
         flex-direction: column;
         gap: 20px;
         padding: 10px;
-        padding-left: 15px; /* Updated: Consistent padding */
-        padding-right: 15px; /* Added: Symmetric padding */
+        padding-left: 0px;
+
         padding-bottom: 20px;
+
+
         align-content: center;
+        padding-left: 0px;
+
     }
 
     .p1,
     .p2,
     .p3 {
+
+
         height: auto;
-        max-width: 100%; /* Added: Prevent overflow */
-        flex: 1 1 100%; /* Added: Ensure full width on mobile */
     }
+
+
 
     .contact-container {
         flex-direction: column;
         width: 100%;
-        max-width: 100%; /* Added: Ensure full width */
         margin-left: 0;
-        margin-right: 0; /* Added: Symmetric margin */
-        padding: 30px 15px; /* Updated: Adjusted padding */
+        padding: 30px;
         gap: 30px;
     }
 
@@ -370,9 +422,9 @@ footer {
     }
 
     .projects-container button {
-        width: 100%; /* Updated: Made responsive */
-        max-width: 200px; /* Updated: Capped width */
+        width: 200px;
     }
+
 }
 
 button {
@@ -392,11 +444,12 @@ button:active {
     background-color: #2B29A7;
 }
 
-@media (min-width: 769px) {
+@media (min-width : 769px) {
     @keyframes typing {
         from {
             width: 0px;
         }
+
         to {
             width: 100%
         }
@@ -408,6 +461,10 @@ button:active {
         width: 0;
         animation: typing 2s steps(30) forwards;
     }
+}
+
+#home {
+    width: 100%;
 }
 
 body {
