@@ -77,8 +77,8 @@ nav ul li a {
 .about-text {
     font-family: 'crimson text';
     text-align: start;
-
-
+width:75%;
+    word-wrap: wrap;
     margin-left: 200px;
     font-size: 30px;
     font-weight: 100;
@@ -99,7 +99,7 @@ nav ul li a {
     width: 100%;
     height: auto;
     padding-top: 90px;
-    
+
 }
 
 .skill_text {
@@ -107,7 +107,7 @@ nav ul li a {
     text-align: center;
 
 
-   
+
     font-size: 50px;
     font-weight: 600;
     line-height: 30px;
@@ -120,7 +120,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(4, 170px);
     justify-content: center;
-   
+
     gap: 40px;
 
 }
@@ -214,12 +214,12 @@ nav ul li a {
 
 .contact-form button {
     padding: 12px 20px;
-  
+
     background-color: #2B29A7;
     color: white;
     font-size: 16px;
     border-radius: 6px;
-    
+
 }
 
 .contact-form button:hover {
@@ -410,10 +410,10 @@ footer {
 
     .contact-form input,
     .contact-form textarea {
-        padding:0px;
+        padding: 0px;
 
     }
-    
+
     .contact-container {
         flex-direction: column;
         width: 100%;
